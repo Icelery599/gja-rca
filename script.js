@@ -183,12 +183,12 @@ const pages = {
     <section class="section">
       <div class="grid-2" style="align-items: center;">
         <div data-aos="fade-right">
-          <img src="https://images.unsplash.com/photo-1427504494785-cdcffdb3daea?w=500&h=400&fit=crop" alt="School Building" style="border-radius: 16px; box-shadow: var(--shadow-lg); width: 100%;">
+          <img src="https://images.unsplash.com/photo-1427504494785-cdcffdb3daea?w=500&h=400&fit=crop" alt="School Building" style="border-radius: 16px; box-shadow: var(--shadow-lg); width: 100%;[...]
         </div>
         <div data-aos="fade-left">
           <h2 class="section-title">About Our Academy</h2>
           <p style="margin: 20px 0; color: var(--text-muted); line-height: 1.8;">
-            Founded in 2005, Rhema Christian Academy (merged with Grace Junior Academy in 2020) has established itself as a beacon of educational excellence in Ardo Kola, Taraba State. Our institution combines rigorous academics with Christian values, creating an environment where students thrive intellectually, spiritually, and socially.
+            Founded in 2005, Rhema Christian Academy (merged with Grace Junior Academy in 2020) has established itself as a beacon of educational excellence in Ardo Kola, Taraba State. Our instit[...]
           </p>
           <p style="margin: 20px 0; color: var(--text-muted); line-height: 1.8;">
             With modern facilities, dedicated staff, and innovative teaching methodologies, we prepare students for success in higher education and meaningful contributions to society.
@@ -206,12 +206,12 @@ const pages = {
         <div class="card" data-aos="fade-up">
           <div style="font-size: 2.5rem; color: var(--accent); margin-bottom: 15px;"><i class="fas fa-bullseye"></i></div>
           <h3>Our Mission</h3>
-          <p>To provide holistic education that nurtures academic excellence, moral integrity, and spiritual growth, preparing students to become responsible leaders and contributors to society.</p>
+          <p>To provide holistic education that nurtures academic excellence, moral integrity, and spiritual growth, preparing students to become responsible leaders and contributors to society.<[...]
         </div>
         <div class="card" data-aos="fade-up" data-aos-delay="100">
           <div style="font-size: 2.5rem; color: var(--accent); margin-bottom: 15px;"><i class="fas fa-eye"></i></div>
           <h3>Our Vision</h3>
-          <p>To be a leading institution of learning that develops enlightened individuals with strong Christian values, critical thinking skills, and a passion for lifelong learning and service.</p>
+          <p>To be a leading institution of learning that develops enlightened individuals with strong Christian values, critical thinking skills, and a passion for lifelong learning and service.[...]
         </div>
       </div>
     </section>
@@ -255,7 +255,7 @@ const pages = {
 
         <div id="nursery" class="tab-content active" data-aos="fade-up">
           <h3>Nursery Section (Ages 2-5)</h3>
-          <p>Our Nursery program provides a nurturing environment where young learners develop foundational skills through play-based learning, social interaction, and early academic concepts.</p>
+          <p>Our Nursery program provides a nurturing environment where young learners develop foundational skills through play-based learning, social interaction, and early academic concepts.</p[...]
           <ul style="margin: 20px 0; padding-left: 20px; color: var(--text-muted);">
             <li>Early literacy and numeracy skills</li>
             <li>Social and emotional development</li>
@@ -576,6 +576,132 @@ const pages = {
         <p style="margin-bottom: 10px;"><strong>Email:</strong> parent@example.com</p>
         <p><strong>Password:</strong> Demo@123</p>
         <p style="margin-top: 15px; font-size: 0.9rem; color: var(--text-muted);">*This is a demonstration portal. Use the credentials above to explore.</p>
+      </div>
+    </section>
+  `,
+
+  'staff': () => `
+    <section class="section">
+      <div class="section-header" data-aos="fade-up">
+        <h2 class="section-title">Our Staff</h2>
+        <p class="section-subtitle">Dedicated educators committed to excellence</p>
+      </div>
+
+      <div class="grid-3" id="staff-grid">
+        <div class="card" data-aos="fade-up">
+          <div style="font-size: 3rem; color: var(--accent); text-align: center; margin-bottom: 15px;"><i class="fas fa-user-tie"></i></div>
+          <h3>Principal</h3>
+          <p><strong>Name:</strong> Dr. David Okonkwo</p>
+          <p><strong>Experience:</strong> 20+ years in education</p>
+          <p style="font-size: 0.9rem; color: var(--text-muted);">PhD in Educational Leadership</p>
+        </div>
+
+        <div class="card" data-aos="fade-up" data-aos-delay="100">
+          <div style="font-size: 3rem; color: var(--accent); text-align: center; margin-bottom: 15px;"><i class="fas fa-user-tie"></i></div>
+          <h3>Vice Principal (Academics)</h3>
+          <p><strong>Name:</strong> Mrs. Grace Adeyemi</p>
+          <p><strong>Experience:</strong> 15+ years in education</p>
+          <p style="font-size: 0.9rem; color: var(--text-muted);">MSc in Curriculum Development</p>
+        </div>
+
+        <div class="card" data-aos="fade-up" data-aos-delay="200">
+          <div style="font-size: 3rem; color: var(--accent); text-align: center; margin-bottom: 15px;"><i class="fas fa-user-tie"></i></div>
+          <h3>Head of Admissions</h3>
+          <p><strong>Name:</strong> Mr. Samuel Ejiro</p>
+          <p><strong>Experience:</strong> 10+ years in admissions</p>
+          <p style="font-size: 0.9rem; color: var(--text-muted);">BA in Educational Administration</p>
+        </div>
+      </div>
+
+      <div style="margin-top: 50px; text-align: center;">
+        <p style="font-size: 1.1rem; color: var(--text-muted);">Our complete staff directory includes 65+ dedicated teachers and support staff trained in their respective fields.</p>
+      </div>
+    </section>
+  `,
+
+  'facilities': () => `
+    <section class="section">
+      <div class="section-header" data-aos="fade-up">
+        <h2 class="section-title">School Facilities</h2>
+        <p class="section-subtitle">World-class infrastructure for learning</p>
+      </div>
+
+      <div class="grid-3">
+        <div class="card" data-aos="fade-up">
+          <div style="font-size: 2.5rem; color: var(--accent); margin-bottom: 15px;"><i class="fas fa-microscope"></i></div>
+          <h3>Science Laboratories</h3>
+          <p>Fully equipped with modern instruments for Physics, Chemistry, and Biology experiments including fume hoods, microscopes, and safety equipment.</p>
+        </div>
+
+        <div class="card" data-aos="fade-up" data-aos-delay="100">
+          <div style="font-size: 2.5rem; color: var(--accent); margin-bottom: 15px;"><i class="fas fa-laptop"></i></div>
+          <h3>Computer Labs</h3>
+          <p>Two fully equipped computer laboratories with high-speed internet, modern software, and workstations for ICT and computer science training.</p>
+        </div>
+
+        <div class="card" data-aos="fade-up" data-aos-delay="200">
+          <div style="font-size: 2.5rem; color: var(--accent); margin-bottom: 15px;"><i class="fas fa-library"></i></div>
+          <h3>Digital Library</h3>
+          <p>Extensive collection of print and digital resources with reading areas, study zones, and access to academic databases and journals.</p>
+        </div>
+
+        <div class="card" data-aos="fade-up" data-aos-delay="300">
+          <div style="font-size: 2.5rem; color: var(--accent); margin-bottom: 15px;"><i class="fas fa-dumbbell"></i></div>
+          <h3>Sports Facilities</h3>
+          <p>Olympic-size swimming pool, basketball court, tennis courts, volleyball grounds, and athletics track for comprehensive sports development.</p>
+        </div>
+
+        <div class="card" data-aos="fade-up" data-aos-delay="400">
+          <div style="font-size: 2.5rem; color: var(--accent); margin-bottom: 15px;"><i class="fas fa-utensils"></i></div>
+          <h3>Cafeteria</h3>
+          <p>Spacious cafeteria serving nutritious meals prepared by professional cooks. Accommodates all students with dietary preferences and restrictions.</p>
+        </div>
+
+        <div class="card" data-aos="fade-up" data-aos-delay="500">
+          <div style="font-size: 2.5rem; color: var(--accent); margin-bottom: 15px;"><i class="fas fa-hospital"></i></div>
+          <h3>Health Center</h3>
+          <p>Well-equipped medical facility with trained nurses, doctor on call, and emergency medical services available 24/7 on campus.</p>
+        </div>
+      </div>
+    </section>
+  `,
+
+  'faq': () => `
+    <section class="section">
+      <div class="section-header" data-aos="fade-up">
+        <h2 class="section-title">Frequently Asked Questions</h2>
+      </div>
+
+      <div style="max-width: 800px; margin: 40px auto;">
+        <div class="card" data-aos="fade-up">
+          <h3 style="cursor: pointer; color: var(--accent);">📍 What is the admission process?</h3>
+          <p style="margin-top: 15px; color: var(--text-muted);">The admission process involves submitting an application form, taking an entrance exam, participating in an interview, and submitting required documents. Admission is competitive based on performance.</p>
+        </div>
+
+        <div class="card" data-aos="fade-up" data-aos-delay="100">
+          <h3 style="cursor: pointer; color: var(--accent);">📚 What is the school calendar?</h3>
+          <p style="margin-top: 15px; color: var(--text-muted);">The academic year runs from September to June with three terms. Each term is approximately 13 weeks with breaks between terms and a long vacation from July to August.</p>
+        </div>
+
+        <div class="card" data-aos="fade-up" data-aos-delay="200">
+          <h3 style="cursor: pointer; color: var(--accent);">💰 What are the tuition fees?</h3>
+          <p style="margin-top: 15px; color: var(--text-muted);">Tuition fees vary by level (Nursery, Primary, Secondary) and are payable per term. Payment plans and scholarships are available. Please contact admissions for detailed fee schedules.</p>
+        </div>
+
+        <div class="card" data-aos="fade-up" data-aos-delay="300">
+          <h3 style="cursor: pointer; color: var(--accent);">🚌 Is transportation available?</h3>
+          <p style="margin-top: 15px; color: var(--text-muted);">Yes, we provide transportation services with safe, well-maintained buses covering various routes within Ardo Kola and surrounding areas. Transportation fees are additional to tuition.</p>
+        </div>
+
+        <div class="card" data-aos="fade-up" data-aos-delay="400">
+          <h3 style="cursor: pointer; color: var(--accent);">🏠 Does the school offer boarding?</h3>
+          <p style="margin-top: 15px; color: var(--text-muted);">We provide boarding facilities for secondary students in secure, well-managed hostels with 24-hour supervision, proper facilities, and pastoral care.</p>
+        </div>
+
+        <div class="card" data-aos="fade-up" data-aos-delay="500">
+          <h3 style="cursor: pointer; color: var(--accent);">👨‍🎓 What extracurricular activities are available?</h3>
+          <p style="margin-top: 15px; color: var(--text-muted);">We offer clubs, sports, cultural programs, music, drama, debate, science fairs, and community service. Participation is encouraged to develop well-rounded individuals.</p>
+        </div>
       </div>
     </section>
   `
