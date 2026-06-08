@@ -3,63 +3,129 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <meta name="description" content="Rhema Christian Academy | Grace Junior Academy - Excellence & Integrity in Education">
+  <meta name="keywords" content="school, academy, education, Nigeria, Christian">
   <title>Rhema Christian Academy | Excellence & Integrity</title>
-  <!-- Google Fonts & Font Awesome -->
-  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-  <!-- AOS Library (optional but smooth) -->
+  
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- AOS Animation Library -->
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  
+  <!-- Main Stylesheet -->
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
+<!-- TOP BAR WITH CONTACT INFO -->
 <div class="top-bar">
-  <span><i class="fas fa-phone-alt"></i> +234 802 345 6789</span>
-  <span><i class="fas fa-envelope"></i> info@rhemaacademy.edu.ng</span>
-  <span><i class="fas fa-map-marker-alt"></i> 12 Faith Avenue, GRA, Lagos</span>
-</div>
-
-<div class="main-header">
-  <div class="nav-container">
-    <div class="logo">
-      <h1>Rhema Christian<span style="color:var(--accent);"> Academy</span> | Grace Junior<span style="color:var(--accent);"> Academy</span></h1>
-      <p>God is Love</p>
-    </div>
-    <div class="menu-toggle" id="mobile-menu"><i class="fas fa-bars"></i></div>
-    <ul class="nav-links" id="nav-links">
-      <li><a href="#" data-page="home" class="active">Home</a></li>
-      <li><a href="#" data-page="about">About Us</a></li>
-      <li><a href="#" data-page="academics">Academics</a></li>
-      <li><a href="#" data-page="admissions">Admissions</a></li>
-      <li><a href="#" data-page="student-life">Student Life</a></li>
-      <li><a href="#" data-page="gallery">Gallery</a></li>
-      <li><a href="#" data-page="news">News & Events</a></li>
-      <li><a href="#" data-page="staff">Staff</a></li>
-      <li><a href="#" data-page="contact">Contact</a></li>
-      <li><a href="#" data-page="parent-portal"><i class="fas fa-user-lock"></i> Parent Portal</a></li>
-    </ul>
+  <div class="top-bar-content">
+    <span><i class="fas fa-phone-alt"></i> +234 802 345 6789</span>
+    <span><i class="fas fa-envelope"></i> info@rhemaacademy.edu.ng</span>
+    <span><i class="fas fa-map-marker-alt"></i> Ardo Kola, Taraba State, Nigeria</span>
   </div>
 </div>
 
-<main id="app-content">
-  <!-- DYNAMIC CONTENT RENDERED BY JS -->
+<!-- MAIN NAVIGATION HEADER -->
+<header class="main-header" id="main-header">
+  <div class="nav-container">
+    <div class="logo" onclick="goToPage('home')" style="cursor: pointer;">
+      <h1>Rhema Christian<span style="color:var(--accent);"> Academy</span></h1>
+      <p class="motto">God is Love</p>
+    </div>
+    
+    <button class="menu-toggle" id="mobile-menu" aria-label="Toggle menu">
+      <i class="fas fa-bars"></i>
+    </button>
+    
+    <nav class="nav-links" id="nav-links" role="navigation">
+      <a href="#" data-page="home" class="nav-link active">Home</a>
+      <a href="#" data-page="about" class="nav-link">About Us</a>
+      <a href="#" data-page="academics" class="nav-link">Academics</a>
+      <a href="#" data-page="admissions" class="nav-link">Admissions</a>
+      <a href="#" data-page="student-life" class="nav-link">Student Life</a>
+      <a href="#" data-page="gallery" class="nav-link">Gallery</a>
+      <a href="#" data-page="news" class="nav-link">News & Events</a>
+      <a href="#" data-page="contact" class="nav-link">Contact</a>
+      <a href="#" data-page="parent-portal" class="nav-link portal-link"><i class="fas fa-user-lock"></i> Parent Portal</a>
+    </nav>
+  </div>
+</header>
+
+<!-- MAIN CONTENT AREA -->
+<main id="app-content" role="main">
+  <!-- Dynamic content rendered by JavaScript -->
 </main>
 
+<!-- FOOTER -->
 <footer>
   <div class="footer-grid">
-    <div class="footer-col"><h4>Rhema Christian Academy</h4><p>Excellence, Integrity, Service. Raising future leaders with Godly values.</p></div>
-    <div class="footer-col"><h4>Quick Links</h4><p><a href="#" style="color:#ddd;" data-page="admissions">Admissions</a><br><a href="#" style="color:#ddd;" data-page="academics">Academics</a><br><a href="#" style="color:#ddd;" data-page="parent-portal">Parent Portal</a></p></div>
-    <div class="footer-col"><h4>Contact</h4><p><i class="fas fa-phone"></i> +234 802 345 6789<br><i class="fas fa-envelope"></i> info@rhemaacademy.edu.ng</p></div>
-    <div class="footer-col"><h4>Follow Us</h4><div class="social-icons"><a href="#"><i class="fab fa-facebook-f"></i></a><a href="#"><i class="fab fa-instagram"></i></a><a href="#"><i class="fab fa-twitter"></i></a></div><p>Subscribe to Newsletter</p><input type="email" id="newsletter-email" placeholder="Your email" style="padding:8px;border-radius:30px;border:none;"><button style="background:var(--accent);border:none;padding:8px 12px;border-radius:30px;" onclick="alert('Subscribed successfully (demo)')">Go</button></div>
+    <div class="footer-col">
+      <h4>Rhema Christian Academy</h4>
+      <p>Excellence, Integrity, and Service. Raising future leaders with Godly values and academic excellence.</p>
+    </div>
+    
+    <div class="footer-col">
+      <h4>Quick Links</h4>
+      <ul class="footer-links">
+        <li><a href="#" data-page="admissions">Admissions</a></li>
+        <li><a href="#" data-page="academics">Academics</a></li>
+        <li><a href="#" data-page="news">Events</a></li>
+        <li><a href="#" data-page="contact">Contact Us</a></li>
+      </ul>
+    </div>
+    
+    <div class="footer-col">
+      <h4>Contact Information</h4>
+      <p>
+        <i class="fas fa-phone"></i> +234 802 345 6789<br>
+        <i class="fas fa-envelope"></i> info@rhemaacademy.edu.ng<br>
+        <i class="fas fa-map-marker-alt"></i> Ardo Kola, Taraba State
+      </p>
+    </div>
+    
+    <div class="footer-col">
+      <h4>Follow Us</h4>
+      <div class="social-icons">
+        <a href="#" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="#" title="Twitter"><i class="fab fa-twitter"></i></a>
+        <a href="#" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+    </div>
   </div>
-  <div style="text-align:center;margin-top:40px;font-size:0.8rem;">© 2026 Rhema Christian Academy — All rights reserved.</div>
+  
+  <div class="footer-bottom">
+    <p>&copy; 2026 Rhema Christian Academy | Grace Junior Academy. All rights reserved.</p>
+  </div>
 </footer>
 
-<div class="whatsapp-chat" onclick="window.open('https://wa.me/2348023456789?text=Hello%20I%20need%20more%20info','_blank')"><i class="fab fa-whatsapp"></i></div>
-<div id="imageModal" class="modal"><span class="modal-close">&times;</span><img class="modal-img" id="modalImg"></div>
+<!-- FLOATING WHATSAPP BUTTON -->
+<a href="https://wa.me/2348023456789?text=Hello%20I%20need%20more%20info" target="_blank" class="whatsapp-chat" title="Chat on WhatsApp" aria-label="WhatsApp chat">
+  <i class="fab fa-whatsapp"></i>
+</a>
 
+<!-- IMAGE LIGHTBOX MODAL -->
+<div id="imageModal" class="modal" role="dialog" aria-label="Image gallery">
+  <span class="modal-close" aria-label="Close image">&times;</span>
+  <img class="modal-img" id="modalImg" alt="Gallery image">
+</div>
+
+<!-- NOTIFICATION TOAST -->
+<div id="notification-toast" class="notification-toast"></div>
+
+<!-- LOADING SPINNER -->
+<div id="loading-spinner" class="loading-spinner">
+  <div class="spinner"></div>
+</div>
+
+<!-- JavaScript Libraries -->
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script src="script.js">
-</script>
+<script src="script.js"></script>
+
 </body>
 </html>
